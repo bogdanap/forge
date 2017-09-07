@@ -1,7 +1,7 @@
 language: python
-sudo: false
-os: linux
-dist: trusty
+#sudo: false
+#os: linux
+#dist: trusty
 
 cache: pip
 
