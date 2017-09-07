@@ -5,8 +5,8 @@ language: python
 
 cache: pip
 
-services:
- - docker
+#services:
+# - docker
 
 env:
   global:
