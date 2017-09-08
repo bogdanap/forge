@@ -1,4 +1,4 @@
-language: python
+language: __garnet__
 sudo: false
 os: linux
 dist: trusty
