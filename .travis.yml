@@ -13,8 +13,9 @@ env:
     - KUBECONFIG=${HOME}/.kube/kubernaut
     - SCOUT_DISABLE=1
 
+before_install: pyenv global system 2.7 3.6
+
 install:
- - pyenv global system 2.7 3.6
  - scripts/setup.sh
  - pip3 install kubernaut
  - kubernaut set-token $KUBERNAUT_TOKEN
